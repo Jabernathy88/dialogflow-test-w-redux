@@ -1,7 +1,8 @@
 import {ApiAiClient} from 'api-ai-javascript';
 import {applyMiddleware, createStore} from 'redux';
 
-const accessToken = "1fee9bf4e7d44f1483787534c054848e";
+// helium 'client' token 
+const accessToken = "6085f9ad0c3b400cb36dcf32521f2c0c";
 const client = new ApiAiClient({accessToken});
 
 const ON_MESSAGE = 'ON_MESSAGE';
